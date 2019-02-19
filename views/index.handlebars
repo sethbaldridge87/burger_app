@@ -1,0 +1,25 @@
+<div class="container" id="main_content">
+    <div class="row">
+        <div class="col12"><h1>Burger App</h1></div>
+    </div>
+    <div class="row">
+        <div class="col12">
+            <form>
+                <div class="input-field">
+                <i class="material-icons prefix">restaurant</i>
+                <input type="text" name="burger_choice" id="burger_choice" placeholder="What kind of burger would you like?">
+                <button class="btn" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="all_burgers" class="row">
+        {{#each burgers}}
+            <div class="col1">
+                <p>Burger {{this.id}}</p>
+                <p>{{this.burger}}</p>
+                <button>Gnosh it!</button>
+            </div>
+        {{/each}}
+    </div>
+</div>

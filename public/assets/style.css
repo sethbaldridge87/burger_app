@@ -1,0 +1,11 @@
+body {
+    background-color: #f7d499;
+}
+h1 {
+    text-align: center;
+}
+form {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
