@@ -1,11 +1,24 @@
 body {
     background-color: #f7d499;
 }
-h1 {
+h1,h2 {
     text-align: center;
 }
 form {
     background-color: #fff;
     border-radius: 30px;
     padding: 20px;
+}
+.burgers {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+#eaten_burgers div {
+    color: gray;
+}
+img {
+    width: 200px;
+    margin-left: calc(50% - 100px);
 }
