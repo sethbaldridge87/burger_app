@@ -1,2 +1,1 @@
-# burger_app
-Express, MySQL, Handlebars.js
+Uses Express, MySQL, Handlebars.js
