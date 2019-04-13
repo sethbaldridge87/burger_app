@@ -1,6 +1,6 @@
 User enters a new burger, which is stored in the database as "uneaten." After clicking on the new burger's eaten button, it is moved to a column of "eaten" burgers.
 
-Technologies used: Express, MySQL, Handlebars.js
+Technologies used: Express, MySQL, Handlebars.js, jQuery
 
 Follow the progress of the avocado burger below!
 
